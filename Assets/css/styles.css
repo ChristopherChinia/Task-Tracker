@@ -25,3 +25,8 @@
     align-items: center;
     margin-bottom: 20px;
   }
+
+  .header h2{
+    text-decoration: underline;
+    color: green;
+    }
