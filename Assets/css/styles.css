@@ -57,3 +57,17 @@
         display: block;
         width: 100%;
       }
+
+      button#task-delete{
+        display: inline-block;
+        background:red;
+        color:white;
+        border:none;
+        padding: 10px 20px;
+        margin: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: inherit;
+      }
