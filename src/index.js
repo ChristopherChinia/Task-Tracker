@@ -1,3 +1,10 @@
+const data = { };
+
+document.addEventListener("DOMContentLoaded",() => {
+  fetchData();
+  
+})
+
 function displayData(data) {
     const div = document.getElementById('root');
     const details = document.createElement('div');
