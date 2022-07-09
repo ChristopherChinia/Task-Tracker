@@ -57,3 +57,14 @@ plate.addEventListener('submit', (e)=>{
     const addBtn=document.querySelector('.btn').addEventListener('click', ()=>{
       plate.style.display="block"
     })
+
+    function deleteData(id){
+        fetch(`http://localhost:3000/data/${id}`,{
+          method: "DELETE",
+          headers: {
+            "content-Type":"application/json"
+          }
+        })
+        .then(res =>res.json())
+        .then(deleteInfo =>console.log(deleteInfo))
+      }
