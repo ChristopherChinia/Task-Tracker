@@ -18,3 +18,10 @@ function displayData(data) {
     });
     // info.appendChild(details);
   }
+
+  // fetching
+function fetchData(){
+    fetch('http://localhost:3000/data')
+    .then(res => res.json())
+    .then((infoData) => infoData.forEach(data =>displayData(data)));
+  }
