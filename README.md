@@ -87,7 +87,7 @@ As a user, You can:
    ```
 *****
 ## Live Link
-Or you can access the web application directly via this [LINK.]() 
+Or you can access the web application directly via this [LINK.](https://christopherchinia.github.io/Task-Tracker/) 
 *****
 
 ## Technologies Used
