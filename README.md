@@ -1,6 +1,6 @@
 # Task Tracker
 *****
-### Author : Christopher Chinia 25th June 2022
+### Author : Christopher Chinia 8th July 2022
 ****
 ## Project Description
 Task tracker is a simple application that lets a user record their daily activities that they intend to do. Keeping records enables the user to refer without constant worry of fogetting.
