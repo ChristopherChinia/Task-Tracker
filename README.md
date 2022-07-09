@@ -1,9 +1,9 @@
-# BUYSELL IP
+# Task Tracker
 *****
 ### Author : Christopher Chinia 25th June 2022
 ****
 ## Project Description
-Buysell website is a free platform for buyers to find customers and customers to find products easily from the comfort of their livingrooms. This platforms enables customers to view the image, description and price of a product which they also have an option to purchase the product of their choice.
+Task tracker is a simple application that lets a user record their daily activities that they intend to do. Keeping records enables the user to refer without constant worry of fogetting.
 
 ## SCREENSHOTS
 ![Home-page SCREENSHOTS](./Assets/images/Screenshot%20from%202022-07-08%2021-56-34.png)
@@ -87,7 +87,7 @@ As a user, You can:
    ```
 *****
 ## Live Link
-Or you can access the web application directly via this [LINK.](https://christopherchinia.github.io/Buy-Sell-IP/) 
+Or you can access the web application directly via this [LINK.]() 
 *****
 
 ## Technologies Used
