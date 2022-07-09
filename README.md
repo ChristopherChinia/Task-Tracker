@@ -6,11 +6,9 @@
 Buysell website is a free platform for buyers to find customers and customers to find products easily from the comfort of their livingrooms. This platforms enables customers to view the image, description and price of a product which they also have an option to purchase the product of their choice.
 
 ## SCREENSHOTS
-![Home page SCREENSHOTS](./Assets/images/Screenshot%20from%202022-06-25%2001-34-21.png)
+![Home-page SCREENSHOTS](./Assets/images/Screenshot%20from%202022-07-08%2021-56-34.png)
 
-![products page SCREENSHOTS](./Assets/images/Screenshot%20from%202022-06-25%2001-34-47.png)
-
-![products page SCREENSHOTS](./Assets/images/Screenshot%20from%202022-06-25%2001-34-56.png)
+![Full home-page SCREENSHOTS](./Assets/images/Screenshot%20from%202022-07-08%2021-56-40.png)
 
 
 ********
@@ -36,7 +34,7 @@ Then, open the `index.html` file on your browser to run the application.
 
 
 ### Getting Files
-* Fork the repo [LINK.](https://github.com/ChristopherChinia/Buy-Sell-IP.git)
+* Fork the repo [LINK.](https://github.com/ChristopherChinia/Task-Tracker)
 - Create a new branch in your terminal (git checkout -b improve-feature)
 - Install the prerequisites
 - Make appropriate changes in file(s)
@@ -71,28 +69,21 @@ As a user, You can:
    GET /data
 
    Example Response:
-    {
-      "item": "Kawasaki Ninja",
-      "image_Url": "https://imgcdn.zigwheels.ph/medium/gallery/exterior/74/1903/kawasaki-ninja-400-20537.jpg",
-      "Description": "20000 mileage in good condition for more info call 0700000000",
-      "price": "4500000",
-      "id": 1
-    },
-    {
-      "item": "Kawasaki Ninja",
-      "image_Url": "https://imgcdn.zigwheels.ph/medium/gallery/exterior/74/1903/kawasaki-ninja-400-20537.jpg",
-      "Description": "20000 mileage in good condition for more info call 0700000000",
-      "price": "4500000",
-      "id": 2
-    },
-    {
-      "item": "Play Station 5 pro",
-      "image_Url": "https://www.treline.co.ke/wp-content/uploads/2021/01/ishMfuW.jpg",
-      "Description": "3 months of usable still new with two gaming pads",
-      "price": "95000",
-      "id": 3
-    }
-
+   {
+        "id": 1,
+        "text": "Working on Labs",
+        "day": "Jul 4 at 5:00pm"
+      },
+      {
+        "id": 3,
+        "text": "Complete tasks on canvas",
+        "day": "Jul 4 at 5:00pm"
+      },
+      {
+        "text": "Cooking Lunch",
+        "day": "Jul 8 at 12:30pm",
+        "id": 4
+      }
    ```
 *****
 ## Live Link
