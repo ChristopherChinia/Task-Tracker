@@ -25,3 +25,35 @@ function fetchData(){
     .then(res => res.json())
     .then((infoData) => infoData.forEach(data =>displayData(data)));
   }
+
+  const plate = document.querySelector('.add-form')
+plate.addEventListener('submit', (e)=>{
+     e.preventDefault()
+     const formTask = document.querySelector("#Activity").value
+      const formFill = document.querySelector("#fill").value
+      if(formTask==" " && formFill==" "){
+        alert("All fields are required")
+    }
+    else{
+    data.text=formTask
+    data.day=formFill
+     
+
+        fetch('http://localhost:3000/data',{
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json',
+          accept: 'application/json'
+        },
+        body:JSON.stringify(data)
+        })
+        .then(res =>res.json())
+        .then(data =>console.log(data))
+      }
+
+      window.location.reload();
+
+    })
+
+    const addBtn=document.querySelector('.btn').addEventListener('click', ()=>{
+      plate.style.display="block"
+    })
