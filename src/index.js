@@ -28,7 +28,7 @@ function displayData(data) {
 
   // fetching
 function fetchData(){
-    fetch('http://localhost:3000/data')
+    fetch('https://afternoon-brook-08896.herokuapp.com/data')
     .then(res => res.json())
     .then((infoData) => infoData.forEach(data =>displayData(data)));
   }
@@ -46,7 +46,7 @@ plate.addEventListener('submit', (e)=>{
     data.day=formFill
      
 
-        fetch('http://localhost:3000/data',{
+        fetch('https://afternoon-brook-08896.herokuapp.com/data',{
           method: 'POST',
           headers: { 'Content-Type': 'application/json',
           accept: 'application/json'
@@ -66,7 +66,7 @@ plate.addEventListener('submit', (e)=>{
     })
 
     function deleteData(id){
-        fetch(`http://localhost:3000/data/${id}`,{
+        fetch(`https://afternoon-brook-08896.herokuapp.com/data/${id}`,{
           method: "DELETE",
           headers: {
             "content-Type":"application/json"
